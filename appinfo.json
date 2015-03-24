@@ -1,25 +1,31 @@
 {
-    "versionLabel": "2.1.1",
-    "uuid": "2cb46e44-fe98-4027-8369-47b878e65200",
     "appKeys": {},
-    "longName": "Polar Clock 2.0",
-    "versionCode": 2,
     "capabilities": [
         "configurable"
     ],
-    "shortName": "Polar Clock 2.0",
-    "companyName": "Niraj Sanghvi",
-    "watchapp": {
-        "watchface": true
-    },
+    "companyName": "Robinhuett",
+    "longName": "RotatorWF",
+    "projectType": "native",
     "resources": {
         "media": [
             {
+                "file": "images/menu_icon_rotatorwf.png",
                 "menuIcon": true,
-                "type": "png",
-                "name": "IMAGE_MENU_ICON",
-                "file": "images/menu_icon_polar_clock.png"
+                "name": "MENU_ICON_ROTATORWF",
+                "type": "png"
             }
         ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Rotator",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "11385a51-4d88-4af3-aab7-9d2b43cef622",
+    "versionCode": 2,
+    "versionLabel": "0.1",
+    "watchapp": {
+        "watchface": true
     }
 }
